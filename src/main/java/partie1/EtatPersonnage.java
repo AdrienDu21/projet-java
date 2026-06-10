@@ -1,0 +1,8 @@
+package partie1;
+
+public abstract class EtatPersonnage {
+    protected Personnage personnage;
+    public abstract String attaquer(String cible);
+    public abstract String recevoirPoison();
+    public abstract String mourir();
+}
